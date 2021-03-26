@@ -1,0 +1,74 @@
+@media screen and (max-width: 1280px)
+#bloc-page
+{
+    width: 900px;
+    margin: auto;
+}
+#infos{
+   display: flex;
+   background-color:#F2F2F2;
+   justify-content: space-around;
+}
+#logement{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+}
+#populaires{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#F2F2F2;
+}
+#filtres{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: row;
+    width: 500px;
+}
+#client{
+    display: flex;
+    
+}
+#monument{
+    display: flex;
+    flex-direction: row;
+}
+
+#hebergement{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    border:5px solid grey;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+}
+.imageflottante{
+    float: left;
+}
+.dessous{
+    clear: both;
+}
+a:hover /* apparence au survole des liens */
+{
+    text-decoration: overline;
+    color: #DEEBFF;
+}
+a:visited /* quand le visiteur a dèjà vu la page concernée */
+{
+    color:#DEEBFF;
+}
+body{
+    font-family: Raleway,trebuchet MS, sans-serif;
+}
+#villes{
+    display: flex;
+}
+#reservia{
+    display: flex;
+    flex-direction: row;
+}
