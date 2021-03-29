@@ -1,40 +1,31 @@
-@media screen and (max-width: 1280px)
-#bloc-page
-{
-    width: 900px;
-    margin: auto;
-}
+
 #infos{
    display: flex;
    background-color:#F2F2F2;
    justify-content: space-around;
 }
-#logement{
+.logement {
     display:flex;
     flex-wrap: wrap;
     background-color: #F2F2F2;
 }
-#populaires{
-    display: flex;
-    flex-wrap: wrap;
-    background-color:#F2F2F2;
+
+.filtres{
+    margin: 5px;
 }
-#filtres{
+.client{
     display: flex;
-    justify-content: center;
-    align-content: space-around;
-    flex-direction: row;
-    width: 500px;
+    justify-content: flex-end;
+    margin: 10px;
+    color:#0065FC;
+    text-decoration: overline;
 }
 #client{
-    display: flex;
-    
+    display: flex; 
 }
 #monument{
-    display: flex;
-    flex-direction: row;
+    display:flex;
 }
-
 #hebergement{
     display: flex;
     flex-direction: row;
@@ -42,33 +33,36 @@
 section{
     display: flex;
     flex-direction: row;
-    border:5px solid grey;
     margin-right: auto;
-    text-align: center;
-    justify-content: center;
-}
-.imageflottante{
-    float: left;
-}
-.dessous{
-    clear: both;
-}
-a:hover /* apparence au survole des liens */
-{
-    text-decoration: overline;
-    color: #DEEBFF;
-}
-a:visited /* quand le visiteur a dèjà vu la page concernée */
-{
-    color:#DEEBFF;
 }
 body{
     font-family: Raleway,trebuchet MS, sans-serif;
+    margin: 20px;
 }
 #villes{
     display: flex;
+    margin: 20px;
 }
-#reservia{
+.reservia{
     display: flex;
-    flex-direction: row;
+}
+.bouton{
+    margin: 20px;
+
+}
+.next{
+    border-radius: 10px 10px 10px 10px;
+    color: #0065FC;
+}
+.btn-group{
+    border-radius: 10px 10px 10px 10px;
+}
+.button{
+    border-radius: 10px 10px 10px 10px;
+}
+#populaires{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
 }
