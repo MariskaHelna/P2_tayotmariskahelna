@@ -8,6 +8,7 @@
     display:flex;
     flex-wrap: wrap;
     background-color: #F2F2F2;
+    width: 90%;
 }
 
 .filtres{
@@ -21,10 +22,12 @@
     text-decoration: overline;
 }
 #client{
-    display: flex; 
+    display: flex;
 }
 #monument{
     display:flex;
+    flex-direction: row;
+    width: 100%;
 }
 #hebergement{
     display: flex;
@@ -41,14 +44,9 @@ body{
 }
 #villes{
     display: flex;
-    margin: 20px;
 }
 .reservia{
     display: flex;
-}
-.bouton{
-    margin: 20px;
-
 }
 .next{
     border-radius: 10px 10px 10px 10px;
@@ -56,13 +54,28 @@ body{
 }
 .btn-group{
     border-radius: 10px 10px 10px 10px;
+    margin: 10px;
 }
 .button{
     border-radius: 10px 10px 10px 10px;
+    margin: 10px;
 }
 #populaires{
-    display:flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: flex-end;
     background-color: #F2F2F2;
+    float: left;
+}
+.card1 {
+    flex-grow: 2 !important;
+}
+.card2 {
+    flex-grow: 1 !important;
+}
+.lot1, .lot2 {
+    display: flex;
+    justify-content: space-around;
+}
+.meilleur {
+    display: flex;
 }
