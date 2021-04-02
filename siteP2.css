@@ -5,14 +5,14 @@
    justify-content: space-around;
 }
 .logement {
-    display:flex;
-    flex-wrap: wrap;
+    width: auto;
     background-color: #F2F2F2;
-    width: 90%;
 }
-
+.heberge {
+    background-color: #F2F2F2;
+}
 .filtres{
-    margin: 5px;
+    margin-right: 10px;
 }
 .client{
     display: flex;
@@ -23,10 +23,12 @@
 }
 #client{
     display: flex;
+    margin-left: 500px;
 }
 #monument{
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
     width: 100%;
 }
 #hebergement{
@@ -37,45 +39,57 @@ section{
     display: flex;
     flex-direction: row;
     margin-right: auto;
+    justify-content: space-around;
 }
 body{
     font-family: Raleway,trebuchet MS, sans-serif;
-    margin: 20px;
 }
 #villes{
     display: flex;
+    margin: 30px;
 }
 .reservia{
     display: flex;
 }
+.logo-reservia{
+    margin-left: 20px;
+}
 .next{
     border-radius: 10px 10px 10px 10px;
     color: #0065FC;
+    margin-left: 30px;
+
 }
 .btn-group{
     border-radius: 10px 10px 10px 10px;
-    margin: 10px;
 }
 .button{
     border-radius: 10px 10px 10px 10px;
-    margin: 10px;
+    margin-left: 30px;
 }
-#populaires{
+#populaires ,.popu {
+    display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     background-color: #F2F2F2;
-    float: left;
-}
-.card1 {
-    flex-grow: 2 !important;
-}
-.card2 {
-    flex-grow: 1 !important;
 }
 .lot1, .lot2 {
     display: flex;
     justify-content: space-around;
 }
-.meilleur {
-    display: flex;
+.margin-right-10 {
+    margin-right: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.margin-left-10 {
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.margin {
+    margin-left:15px; 
+}
+.margin1{
+    margin-left: 30px;
+}
+h1, .PCV {
+    margin-left: 30px;
 }
