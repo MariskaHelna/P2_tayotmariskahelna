@@ -39,7 +39,7 @@ section{
     display: flex;
     flex-direction: row;
     margin-right: auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 body{
     font-family: Raleway,trebuchet MS, sans-serif;
