@@ -3,6 +3,7 @@
    display: flex;
    background-color:#F2F2F2;
    justify-content: space-around;
+   font-size: 1.3em;
 }
 .logement {
     width: auto;
@@ -13,6 +14,7 @@
 }
 .filtres{
     margin-right: 10px;
+    font-size: 1.3em;
 }
 .client{
     display: flex;
@@ -24,6 +26,7 @@
 #client{
     display: flex;
     margin-left: 500px;
+    font-size: 1.3em;
 }
 #monument{
     display:flex;
@@ -62,10 +65,12 @@ body{
 }
 .btn-group{
     border-radius: 10px 10px 10px 10px;
+    font-size: 1.3em;
 }
 .button{
     border-radius: 10px 10px 10px 10px;
     margin-left: 30px;
+    font-size: 1.3em;
 }
 #populaires ,.popu {
     display: flex;
@@ -93,3 +98,7 @@ body{
 h1, .PCV {
     margin-left: 30px;
 }
+h4,p{
+    font-size: 1.em;
+}
+

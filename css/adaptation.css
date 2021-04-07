@@ -19,6 +19,37 @@
     #infos{
         flex-direction: column;
     }
+    #client{
+        flex-direction: column-reverse;
+    }
+
+    .TVH{
+        font-size: 2.1em;
+    }
+    .btn-group{
+        font-size:3em ;
+    }
+    .filtres{
+        font-size: 3em;
+    }
+    .button{
+        font-size: 3em;
+    }
+    .next{
+        font-size: 1em;
+    }
+    .next1{
+        font-size: 3em;
+    }
+    h2,h3,h4,p{
+        font-size: 3em;
+    }
+    .rating{
+        font-size: 4em;
+    }
+    .logement{
+        background-color: none;
+    }
     
 }
 
@@ -42,6 +73,36 @@
     }
     #infos{
         flex-direction: column;
+    }
+    #client{
+        flex-direction: column-reverse;
+    }
+    .TVH{
+        font-size: 2.1em;
+    }
+    .btn-group{
+        font-size: 3em;
+    }
+    .filtres{
+        font-size: 3em;
+    }
+    .button{
+        font-size: 3em;
+    }
+    .next{
+        font-size: 1em;
+    }
+    .next1{
+        font-size: 3em;
+    }
+    h2,h3,h4,p{
+        font-size: 3em;
+    }
+    .rating{
+        font-size: 4em;
+    }
+    .logement{
+        background-color: none;
     }
    
 }
