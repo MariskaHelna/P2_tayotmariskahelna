@@ -35,9 +35,8 @@
       margin: auto !important;
   }
 
-  .rating a {
-    color: #F2F2F2;
-    text-decoration: #0065FC;
+  .rating{
+    color: #0065FC;
     font-size: 1em;
     transition: color .4s;
 
@@ -46,7 +45,7 @@
  .rating a:focus,
  .rating a:hover ~ a,
  .rating a:focus ~ a {
-    color: orange;
+    color: red;
     cursor: pointer;
  }
  .card-decale{
