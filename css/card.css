@@ -27,7 +27,7 @@
     border-radius: 10px 10px 0 0;
   }
   .card-img1 {
-    width: 100%;
+    width: 90%;
     border-radius: 10px 0 0 10px;
   }
 
@@ -38,15 +38,9 @@
   .rating{
     color: #0065FC;
     font-size: 1em;
-    transition: color .4s;
-
  }
- .rating a:hover,
- .rating a:focus,
- .rating a:hover ~ a,
- .rating a:focus ~ a {
-    color: red;
-    cursor: pointer;
+ .rating1{
+   color: #F2F2F2;
  }
  .card-decale{
      display: flex;

@@ -15,16 +15,18 @@
 .filtres{
     margin-right: 10px;
     font-size: 1.3em;
+    margin-block-start: 5px;
 }
 .client{
     display: flex;
     justify-content: flex-end;
     margin: 10px;
     text-decoration: overline;
+    margin-right: 50px;
 }
 #client{
     display: flex;
-    margin-left: 500px;
+    margin-left: 400px;
     font-size: 1.3em;
 }
 #monument{
@@ -33,10 +35,7 @@
     justify-content: space-around;
     width: 100%;
 }
-#hebergement{
-    display: flex;
-    flex-direction: row;
-}
+
 section{
     display: flex;
     flex-direction: row;
@@ -50,6 +49,7 @@ body{
     display: flex;
     margin: 30px;
 }
+
 .reservia{
     display: flex;
 }
@@ -57,7 +57,9 @@ body{
     margin-left: 20px;
 }
 .next{
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
     color: #0065FC;
     margin-left: 30px;
     background: white;
@@ -66,17 +68,52 @@ body{
     margin-bottom: 20px;
 }
 .btn-group{
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 0px 50px 50px 0px;
+    height: 40px;
     font-size: 1.3em;
     background: white;
     border-color: #F2F2F2;
+    margin-right: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    outline:none;
 }
 .button{
-    border-radius: 10px 10px 10px 10px;
-    margin-left: 30px;
     font-size: 1.3em;
     border-color: #F2F2F2;
     background: white;
+}
+.bouton{
+    display: flex;
+}
+
+.mag1{
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 30px;
+    background: #F2F2F2;
+    height: 40px;
+    outline:none;
+    
+}   
+.mag2{
+    border-radius: 0px 0px 0px 0px;
+    height: 35px;
+}
+.mag3{
+    border-radius: 0px 10px 10px 0px;
+    height: 40px;
+    outline:none;
+}
+.mag4{
+    border:#DEEBFF;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    margin-right: -20px;
+    background-color: #DEEBFF;
+}
+.sert1{
+    z-index: 0;
 }
 #populaires ,.popu {
     display: flex;
@@ -115,7 +152,6 @@ header{
 }
 .color-bleu-icon{
 color: #0065FC;
-background-color: #DEEBFF;
 }
 .color-bleu-icon1{
 background: #0065FC;
@@ -123,4 +159,8 @@ background: #0065FC;
 .color{
     color: #0065FC;
 }
+.Economique{
+    display: flex;
+}
+
 

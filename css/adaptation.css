@@ -1,11 +1,12 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 250px) and (max-width: 767px) {
     .card {
-        width: 100%;
+        width: 90%;
+        margin-left: 20px;
     }
 
     .card-large{
-        width: 100% !important;
+        width: 90% !important;
     }
     section{
         flex-direction: column-reverse;
@@ -18,6 +19,11 @@
     }
     #infos{
         flex-direction: column;
+    }
+    .text{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: column;
     }
     #client{
         flex-direction: column-reverse;
@@ -29,18 +35,36 @@
     }
     .btn-group{
         font-size:3em ;
+        margin-bottom: 20px;
+        margin: 10px;
+    }
+    .mag1{
+        height: 40px; 
+    }
+    .mag2{
+        height: 40px;
+    }
+    .mag3{
+        height: 40px;
+    }
+    .mag4{
+        height: 40px;
+        width: 40px;
     }
     .filtres{
         font-size: 3em;
     }
     .button{
         font-size: 3em;
-    }
+    } 
     .next{
-        font-size: 1em;
+        border-radius: 20px;
+        width: 30px;
+        height: 30px;
     }
+
     .next1{
-        font-size: 3em;
+        font-size: 2em;
     }
     h2,h3,h4,p{
         font-size: 3em;
@@ -51,16 +75,23 @@
     .logement{
         background-color: none;
     }
+    .text{
+        display: flex;
+    }
+
     
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .card {
-        width: 100%;
+        width: 90%;
+        margin-left: 20px;
+     
     }
     .card-large{
-        width: 100% !important;
+        width: 90% !important;
+    
     }
 
     section{
@@ -77,13 +108,14 @@
     }
     #client{
         flex-direction: column-reverse;
-        margin-left: 200px;
+        margin-left: 90px;
     }
     .TVH{
         font-size: 2.1em;
     }
     .btn-group{
         font-size: 3em;
+        height: 40px;
     }
     .filtres{
         font-size: 3em;
@@ -91,11 +123,32 @@
     .button{
         font-size: 3em;
     }
-    .next{
-        font-size: 1em;
+    .mag1{
+        margin-left: 30px;
+        background: #F2F2F2;
+        height: 40px; 
     }
+    .mag2{
+        height: 35px;
+    }
+    .mag3{
+        height: 40px;
+    }
+    .mag4{
+        height: 40px;
+        width: 40px;
+    }
+    .Economique{
+        margin: 10px;
+    }
+    .next{
+        border-radius: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
     .next1{
-        font-size: 3em;
+        font-size: 1em;
     }
     h2,h3,h4,p{
         font-size: 3em;
@@ -106,9 +159,13 @@
     .logement{
         background-color: none;
     }
+    .text{
+        display: flex;
+        
+    }
    
 }
-@media only screen and (min-width: 1025px) and (max-width: 1279px){
+@media only screen and (min-width: 1025px) and (max-width: 1359px){
     .card {
         width: 10em;
     }
@@ -130,18 +187,9 @@
         margin-left: 50px;
     }
 }
-@media only screen and (min-width: 1280px) and (max-width:1360){
-    .card {
-        width: 11em;
-    }
-
-    .card-large{
-        width: 11em !important;
-    }
-    #client{
-        margin-left: 180px;
-    }
-}
+@media only screen and (min-width: 1360px){
+   
+    
 
 
 /*!* Medium devices (landscape tablets, 768px and up) *!*/
@@ -163,7 +211,7 @@
     .card-decale{
         width: 26em;
     }
-}*/
+}
 @media only screen and (min-width: 1361px) {
     .card {
         width: 18em;
