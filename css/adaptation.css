@@ -2,7 +2,7 @@
 @media only screen and (min-width: 250px) and (max-width: 767px) {
     .card {
         width: 90%;
-        margin-left: 60px;
+        margin-left: 40px;
     }
 
     .card-large{
@@ -20,15 +20,7 @@
     #infos{
         flex-direction: column;
     }
-    /*.text{
-        display: flex;
-        align-items: flex-start;
-        flex-wrap: column;
-    }
-    #client{
-        flex-direction: column-reverse;
-        margin-left: 100px;
-    }*/
+
     .btn-group{
         font-size:2em ;
         margin-bottom: 20px;
@@ -59,9 +51,6 @@
     .rating,.rating1{
         font-size: 2em;
     }
-    .logement{
-        background-color: none;
-    }
     header{
         margin-left: 20px;
     }
@@ -71,13 +60,33 @@
     .margin1{
         margin-left: 30px;
     }
-    .herberge,.popu{
+    .heberge{
         background-color: white;
     }
     .text{
-        margin-block-start: 200px;
-        margin-right: 50px;
+        display: none;
     }
+    .mobile-tabs{
+        display: flex;
+        justify-content: space-around;
+        font-size: 2em;
+        margin-left: 100px;
+    }
+    .bleu{
+    color: blue;
+    border-bottom: 2px solid #0065FC;
+        width: 100%;
+    }
+   .grey{
+    color: grey;
+    border-bottom: 2px solid#F2F2F2;
+       width: 100%;
+    }
+    .client{
+        margin-left: 200px;
+        margin-block-start: 50px;
+    }
+
 
       
 }
@@ -86,8 +95,8 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .card {
         width: 90%;
-        margin-left: 70px;
-     
+        margin-left: 40px;
+
     }
     .card-large{
         width: 90% !important;
@@ -106,10 +115,7 @@
     #infos{
         flex-direction: column;
     }
-    /*#client{
-        flex-direction: column-reverse;
-        margin-left: 100px;
-    }*/
+
     .btn-group{
         font-size: 2em;
         height: 40px;
@@ -142,9 +148,6 @@
     .rating,.rating1{
         font-size: 2em;
     }
-    .logement{
-        background-color: none;
-    }
     header{
         margin-left: 20px;
     }
@@ -154,12 +157,35 @@
     .margin1{
         margin-left: 30px;
     }
-    .text{
-        margin-block-start: 200px;
-        margin-right:50px;
+    .heberge{
+        background-color: white;
     }
-   
+    .text{
+        display: none;
+    }
+    .client{
+        margin-left: 200px;
+        margin-block-start: 50px;
+    }
+    .mobile-tabs{
+        display: flex;
+        justify-content: space-around;
+        font-size: 2em;
+        text-align: center;
+    }
+    .bleu{
+        color: blue;
+        border-bottom:2px solid #0065FC;
+        width: 100%;
+    }
+    .grey{
+        color: grey;
+        border-bottom:2px solid #F2F2F2;
+        width: 100%;
+    }
 }
+
+
 @media only screen and (min-width: 1025px) and (max-width: 1359px){
     .card {
         width: 10em;
@@ -172,47 +198,48 @@
         margin: 20px;
         
     }
-    #client{
-        margin-left: 170px;
-    }
     .margin1{
         margin-left: 50px;
     }
     .herberge,.popu{
         background-color: white;
     }
+    .mobile-tabs{
+        display: none;
+    }
+    #client{
+        margin-left: 300px;
+    }
 }
-@media only screen and (min-width: 1360px){
-   
-    
 
 
-/*!* Medium devices (landscape tablets, 768px and up) *!*/
-/*@media only screen and (min-width: 768px) {}*/
+@media only screen and (min-width: 1360px) and (max-width:1819px){
+    .mobile-tabs{
+        display: none;
+    }
+    #client{
+        margin-left: 450px;
+    }
 
-/*!* Large devices (laptops/desktops, 992px and up) *!*/
-/*@media only screen and (min-width: 992px) {}*/
+}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/*@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+
+@media only screen and (min-width: 1820px) {
     .card {
-        width: 14em;
+        width: 23em;
     }
 
     .card-large{
-        width: 16em !important;
+        width: 23em !important;
     }
-
     .card-decale{
         width: 26em;
     }
-}
-@media only screen and (min-width: 1361px) {
-    .card {
-        width: 18em;
+    #client{
+        margin-left: 700px;
+    }
+    .mobile-tabs{
+        display: none;
     }
 
-    .card-large{
-        width: 20em !important;
-    }
 }

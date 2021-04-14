@@ -1,15 +1,12 @@
 
 #infos{
    display: flex;
-   background-color:#F2F2F2;
-   justify-content: space-around;
-   font-size: 1.3em;
-}
-.logement {
-    width: auto;
-    background-color: #F2F2F2;
+    background-color:#F2F2F2;
+    justify-content: space-around;
+    font-size: 1.3em;
 }
 .heberge {
+    width: auto;
     background-color: #F2F2F2;
 }
 .filtres{
@@ -21,12 +18,10 @@
     display: flex;
     justify-content: flex-end;
     margin: 10px;
-    text-decoration: overline;
     margin-right: 50px;
 }
 #client{
     display: flex;
-    margin-left: 400px;
     font-size: 1.3em;
 }
 #monument{
@@ -77,6 +72,9 @@ body{
     padding: 5px;
     padding-left: 20px;
     outline:none;
+}
+.btn-group:hover{
+    color: blue;
 }
 .button{
     font-size: 1.3em;
@@ -142,7 +140,7 @@ h1, .PCV {
     margin-left: 30px;
 }
 h4,p{
-    font-size: 1.em;
+    font-size: 1.0em;
 }
 header{
     margin-left: 20px;
@@ -161,6 +159,22 @@ background: #0065FC;
 }
 .Economique{
     display: flex;
+}
+.PCV{
+    color: grey;
+}
+.ancre{
+    color: blue;
+    border-top: 2px solid blue;
+    text-decoration: none;
+}
+.ancre1{
+    color: grey;
+    text-decoration: none;
+}
+.ancre2{
+    color: blue;
+    text-decoration: none;
 }
 
 
