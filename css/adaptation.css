@@ -20,15 +20,15 @@
     #infos{
         flex-direction: column;
     }
-    .text{
+    /*.text{
         display: flex;
         align-items: flex-start;
         flex-wrap: column;
     }
     #client{
         flex-direction: column-reverse;
-        margin-left: 150px;
-    }
+        margin-left: 100px;
+    }*/
     .btn-group{
         font-size:2em ;
         margin-bottom: 20px;
@@ -62,11 +62,8 @@
     .logement{
         background-color: none;
     }
-    .text{
-        display: flex;
-    }
     header{
-        margin-left: 20px !important;
+        margin-left: 20px;
     }
     .margin{
         margin-left: 70px;
@@ -74,6 +71,14 @@
     .margin1{
         margin-left: 30px;
     }
+    .herberge,.popu{
+        background-color: white;
+    }
+    .text{
+        margin-block-start: 200px;
+        margin-right: 50px;
+    }
+
       
 }
 
@@ -101,10 +106,10 @@
     #infos{
         flex-direction: column;
     }
-    #client{
+    /*#client{
         flex-direction: column-reverse;
-        margin-left: 150px;
-    }
+        margin-left: 100px;
+    }*/
     .btn-group{
         font-size: 2em;
         height: 40px;
@@ -140,17 +145,18 @@
     .logement{
         background-color: none;
     }
-    .text{
-        display: flex; 
-    }
     header{
-        margin-left: 20px !important;
+        margin-left: 20px;
     }
     .margin{
         margin-left: 70px;
     }
     .margin1{
         margin-left: 30px;
+    }
+    .text{
+        margin-block-start: 200px;
+        margin-right:50px;
     }
    
 }
@@ -171,6 +177,9 @@
     }
     .margin1{
         margin-left: 50px;
+    }
+    .herberge,.popu{
+        background-color: white;
     }
 }
 @media only screen and (min-width: 1360px){
