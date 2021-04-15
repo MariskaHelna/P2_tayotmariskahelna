@@ -22,13 +22,10 @@
     }
 
     .btn-group{
-        font-size:2em ;
-        margin-bottom: 20px;
-        margin: 10px;
         padding-left: 20px;
     }
     .filtres{
-        font-size: 2em;
+        font-size: 3em;
     }
     .button{
         font-size: 2em;
@@ -54,11 +51,8 @@
     header{
         margin-left: 20px;
     }
-    .margin{
-        margin-left: 70px;
-    }
-    .margin1{
-        margin-left: 30px;
+    .margin,.margin1{
+        margin-left: 40px;
     }
     .heberge{
         background-color: white;
@@ -71,6 +65,20 @@
         justify-content: space-around;
         font-size: 2em;
         margin-left: 100px;
+    }
+    .bouton1{
+        display: flex;
+        font-size: xx-large;
+        text-align-last: center;
+    }
+    .bouton{
+        display: none;
+    }
+    .sert1,.sert3{
+        font-size: 50%;
+    }
+    .sert2{
+        font-size: 70%;
     }
     .bleu{
     color: blue;
@@ -85,6 +93,32 @@
     .client{
         margin-left: 200px;
         margin-block-start: 50px;
+    }
+    .a-propos, .nos-hebergements,.assistance{
+        margin-left: 30px;
+    }
+    #villes{
+        flex-direction: column;
+    }
+    .fa-chart-line{
+        margin-left: 600px;
+    }
+    .insert{
+        margin-block-start: 50px;
+        margin-left: -325px;
+    }
+    .insert1{
+        margin-block-start: 100px;
+        margin-left: -180px;
+    }
+    .insert2{
+        margin-block-start: 50px;
+    }
+    .insert3{
+        margin-block-start: 100px;
+    }
+    .Economique{
+        margin-left: -5px;
     }
 
 
@@ -115,10 +149,7 @@
     #infos{
         flex-direction: column;
     }
-
     .btn-group{
-        font-size: 2em;
-        height: 40px;
         padding-left: 20px;
     }
     .filtres{
@@ -151,11 +182,8 @@
     header{
         margin-left: 20px;
     }
-    .margin{
-        margin-left: 70px;
-    }
-    .margin1{
-        margin-left: 30px;
+    .margin,.margin1{
+        margin-left: 40px;
     }
     .heberge{
         background-color: white;
@@ -173,6 +201,20 @@
         font-size: 2em;
         text-align: center;
     }
+    .bouton1{
+        display: flex;
+        font-size: xx-large;
+        text-align-last: center;
+    }
+    .bouton{
+        display: none;
+    }
+    .sert1,.sert3{
+        font-size: 50%;
+    }
+    .sert2{
+        font-size: 70%;
+    }
     .bleu{
         color: blue;
         border-bottom:2px solid #0065FC;
@@ -182,6 +224,32 @@
         color: grey;
         border-bottom:2px solid #F2F2F2;
         width: 100%;
+    }
+    .a-propos, .nos-hebergements,.assistance{
+        margin-left: 30px;
+    }
+    #villes{
+        flex-direction: column;
+    }
+    .fa-chart-line{
+        margin-left: 600px;
+    }
+    .insert{
+        margin-block-start: 50px;
+        margin-left: -325px;
+    }
+    .insert1{
+        margin-block-start: 100px;
+        margin-left: -180px;
+    }
+    .insert2{
+        margin-block-start: 50px;
+    }
+    .insert3{
+        margin-block-start: 100px;
+    }
+    .Economique{
+        margin-left: -5px;
     }
 }
 
@@ -204,11 +272,60 @@
     .herberge,.popu{
         background-color: white;
     }
-    .mobile-tabs{
+    .text{
         display: none;
+    }
+    .mobile-tabs{
+        display: flex;
+        justify-content: space-around;
+        font-size: 2em;
+        text-align: center;
+    }
+    .bouton{
+        display: none;
+    }
+    .bouton1{
+        display: flex;
+        font-size: xx-large;
+        text-align-last: center;
+    }
+    .sert1,.sert3{
+        font-size: 50%;
+    }
+    .sert2{
+        font-size: 70%;
     }
     #client{
         margin-left: 300px;
+    }
+    .a-propos, .nos-hebergements,.assistance{
+        margin-left: 30px;
+    }
+    #villes{
+        flex-direction: column;
+    }
+    .fa-chart-line{
+        margin-left: 600px;
+    }
+    .margin, .margin1{
+        margin-left: 40px;
+    }
+    .insert{
+        margin-block-start: 50px;
+        margin-left: -325px;
+    }
+    .insert1{
+        margin-block-start: 100px;
+        margin-left: -125px;
+    }
+    .insert2{
+        margin-block-start: 50px;
+    }
+    .insert3{
+        margin-block-start: 100px;
+    }
+    .Economique{
+        margin-left: -5px;
     }
 }
 
@@ -219,6 +336,9 @@
     }
     #client{
         margin-left: 450px;
+    }
+    .bouton1{
+        display: none;
     }
 
 }
@@ -239,6 +359,9 @@
         margin-left: 700px;
     }
     .mobile-tabs{
+        display: none;
+    }
+    .bouton1{
         display: none;
     }
 
