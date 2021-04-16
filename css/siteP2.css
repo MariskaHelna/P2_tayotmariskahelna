@@ -65,12 +65,12 @@ body{
 .btn-group{
     border-radius: 0px 50px 50px 0px;
     height: 40px;
-    font-size: 1.3em;
+    font-size: 2em;
     background: white;
     border-color: #F2F2F2;
     margin-right: 20px;
-    padding: 5px;
-    padding-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     outline:none;
 }
 .btn-group:hover{
@@ -91,16 +91,22 @@ body{
     background: #F2F2F2;
     height: 40px;
     outline:none;
+    padding-right: 30px;
+    padding-left: 30px;
     
 }   
 .mag2{
     border-radius: 0px 0px 0px 0px;
     height: 35px;
+    padding-left: 100px;
 }
 .mag3{
     border-radius: 0px 10px 10px 0px;
     height: 40px;
     outline:none;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
 }
 .mag4{
     border:#DEEBFF;
@@ -160,6 +166,9 @@ background: #0065FC;
 .Economique{
     display: flex;
 }
+.filtres{
+    font-size: 2em;
+}
 .PCV{
     color: grey;
 }
@@ -176,5 +185,10 @@ background: #0065FC;
     color: blue;
     text-decoration: none;
 }
-
+.img30{
+    width: 30%;
+}
+.img70{
+    width: 70%;
+}
 

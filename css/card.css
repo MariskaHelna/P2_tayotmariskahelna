@@ -9,7 +9,6 @@
     margin: 15px;
     height: fit-content;
   }
-
   .card-large{
     width: 17em !important;
   }
@@ -27,10 +26,9 @@
     border-radius: 10px 10px 0 0;
   }
   .card-img1 {
-    width: 90%;
+    width: 100%;
     border-radius: 10px 0 0 10px;
   }
-
   .no-margin {
       margin: auto !important;
   }

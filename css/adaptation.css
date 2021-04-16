@@ -22,10 +22,12 @@
     }
 
     .btn-group{
-        padding-left: 20px;
+        padding-left: 80px;
+        font-size: 2em;
     }
     .filtres{
         font-size: 3em;
+        margin-bottom: 20px;
     }
     .button{
         font-size: 2em;
@@ -39,7 +41,10 @@
     .next1{
         font-size: 1.5em;
     }
-    h2,h3,h4,p{
+    h4{
+        font-size: 1.4em;
+    }
+    h2,h3,p{
         font-size: 1.5em;
     }
     h1{
@@ -53,6 +58,7 @@
     }
     .margin,.margin1{
         margin-left: 40px;
+        font-size: 3em;
     }
     .heberge{
         background-color: white;
@@ -104,22 +110,27 @@
         margin-left: 600px;
     }
     .insert{
-        margin-block-start: 50px;
-        margin-left: -325px;
+        margin-block-start: 60px;
+        margin-left: -640px;
     }
     .insert1{
-        margin-block-start: 100px;
-        margin-left: -180px;
+        margin-block-start: 120px;
+        margin-left: -345px;
     }
     .insert2{
-        margin-block-start: 50px;
+        margin-block-start: 60px;
     }
     .insert3{
-        margin-block-start: 100px;
+        margin-block-start: 120px;
     }
     .Economique{
         margin-left: -5px;
     }
+    .img{
+        width: 90% !important;
+    }
+
+
 
 
       
@@ -130,7 +141,6 @@
     .card {
         width: 90%;
         margin-left: 40px;
-
     }
     .card-large{
         width: 90% !important;
@@ -150,16 +160,15 @@
         flex-direction: column;
     }
     .btn-group{
-        padding-left: 20px;
+        padding-left: 80px;
+        font-size: 2em;
     }
     .filtres{
         font-size: 2em;
+        margin-bottom: 20px;
     }
     .button{
         font-size: 2em;
-    }
-    .Economique{
-        margin: 10px;
     }
     .next{
         border-radius: 20px;
@@ -170,8 +179,11 @@
     .next1{
         font-size: 1.5em;
     }
-    h2,h3,h4,p{
+    h2,h3,p{
         font-size: 1.5em;
+    }
+    h4{
+        font-size: 1.4em;
     }
     h1{
         font-size: 3em;
@@ -184,6 +196,7 @@
     }
     .margin,.margin1{
         margin-left: 40px;
+        font-size: 2em;
     }
     .heberge{
         background-color: white;
@@ -232,36 +245,41 @@
         flex-direction: column;
     }
     .fa-chart-line{
-        margin-left: 600px;
+        margin-left: 350px;
     }
     .insert{
-        margin-block-start: 50px;
-        margin-left: -325px;
+        margin-block-start: 60px;
+        margin-left: -640px;
     }
     .insert1{
-        margin-block-start: 100px;
-        margin-left: -180px;
+        margin-block-start: 120px;
+        margin-left: -345px;
     }
     .insert2{
-        margin-block-start: 50px;
+        margin-block-start: 60px;
     }
     .insert3{
-        margin-block-start: 100px;
+        margin-block-start: 120px;
     }
     .Economique{
         margin-left: -5px;
     }
+    .card-img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .card-img1 {
+        width: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+    .img{
+        width: 90% !important;
+    }
+    
 }
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1359px){
-    .card {
-        width: 10em;
-    }
-
-    .card-large{
-        width: 10em !important;
-    }
     header{
         margin: 20px;
         
@@ -269,25 +287,10 @@
     .margin1{
         margin-left: 50px;
     }
-    .herberge,.popu{
-        background-color: white;
-    }
-    .text{
-        display: none;
-    }
     .mobile-tabs{
-        display: flex;
-        justify-content: space-around;
-        font-size: 2em;
-        text-align: center;
-    }
-    .bouton{
-        display: none;
-    }
+        display:none;}
     .bouton1{
-        display: flex;
-        font-size: xx-large;
-        text-align-last: center;
+        display: none;
     }
     .sert1,.sert3{
         font-size: 50%;
@@ -301,31 +304,19 @@
     .a-propos, .nos-hebergements,.assistance{
         margin-left: 30px;
     }
-    #villes{
-        flex-direction: column;
-    }
     .fa-chart-line{
-        margin-left: 600px;
+        margin-left: 100px;
     }
     .margin, .margin1{
         margin-left: 40px;
     }
-    .insert{
-        margin-block-start: 50px;
-        margin-left: -325px;
-    }
-    .insert1{
-        margin-block-start: 100px;
-        margin-left: -125px;
-    }
-    .insert2{
-        margin-block-start: 50px;
-    }
-    .insert3{
-        margin-block-start: 100px;
-    }
     .Economique{
         margin-left: -5px;
+    }
+    .btn-group{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.5em;
     }
 }
 
@@ -339,6 +330,11 @@
     }
     .bouton1{
         display: none;
+    }
+    .btn-group{
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 2em;
     }
 
 }
