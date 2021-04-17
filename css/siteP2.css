@@ -4,6 +4,7 @@
     background-color:#F2F2F2;
     justify-content: space-around;
     font-size: 1.3em;
+    line-height: 7px;
 }
 .heberge {
     width: auto;
@@ -11,7 +12,7 @@
 }
 .filtres{
     margin-right: 10px;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-block-start: 5px;
 }
 .client{
@@ -50,6 +51,12 @@ body{
 }
 .logo-reservia{
     margin-left: 20px;
+    max-height: 150px;
+}
+.logo{
+    object-fit: cover;
+    width: 80%;
+    height: 80px;
 }
 .next{
     border-radius: 20px;
@@ -65,7 +72,7 @@ body{
 .btn-group{
     border-radius: 0px 50px 50px 0px;
     height: 40px;
-    font-size: 2em;
+    font-size: 1.5em;
     background: white;
     border-color: #F2F2F2;
     margin-right: 20px;
@@ -137,10 +144,10 @@ body{
     border-radius: 10px 10px 10px 10px;
 }
 .margin {
-    margin-left:15px; 
+    margin-left:25px;
 }
 .margin1{
-    margin-left: 30px;
+    margin-left: 35px;
 }
 h1, .PCV {
     margin-left: 30px;
@@ -149,7 +156,7 @@ h4,p{
     font-size: 1.0em;
 }
 header{
-    margin-left: 20px;
+    margin-left: -10px;
 }
 .fa-chart-line{
     margin-left: 150px;
@@ -173,7 +180,7 @@ background: #0065FC;
     color: grey;
 }
 .ancre{
-    color: blue;
+    color: #0065FC;
     border-top: 2px solid blue;
     text-decoration: none;
 }
@@ -182,13 +189,26 @@ background: #0065FC;
     text-decoration: none;
 }
 .ancre2{
-    color: blue;
+    color: #0065FC;
     text-decoration: none;
 }
 .img30{
-    width: 30%;
+    width: 50%;
 }
 .img70{
-    width: 70%;
+    width: 50%;
 }
+.img60{
+    width: 100% !important;
+    object-fit: cover;
+    height: 150px;
+}
+.img10{
+    line-height: 2px;
+    width: 100%;
+    object-fit: cover;
+    height: 70px;
+    padding-top: 20px!important;
+}
+
 
