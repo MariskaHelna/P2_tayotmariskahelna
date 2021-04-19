@@ -55,8 +55,8 @@ body{
 }
 .logo{
     object-fit: cover;
-    width: 80%;
-    height: 80px;
+    width: 70%;
+    height: 70px;
 }
 .next{
     border-radius: 20px;
@@ -100,12 +100,16 @@ body{
     outline:none;
     padding-right: 30px;
     padding-left: 30px;
+    border-right: white;
     
 }   
 .mag2{
     border-radius: 0px 0px 0px 0px;
     height: 35px;
     padding-left: 100px;
+}
+.mag2::placeholder{
+    color: black;
 }
 .mag3{
     border-radius: 0px 10px 10px 0px;
@@ -123,7 +127,7 @@ body{
     margin-right: -20px;
     background-color: #DEEBFF;
 }
-.sert1{
+.sert{
     z-index: 0;
 }
 #populaires ,.popu {

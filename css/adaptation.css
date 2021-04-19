@@ -20,10 +20,32 @@
     #infos{
         flex-direction: column;
     }
-
     .btn-group{
         padding-left: 80px;
         font-size: 2em;
+        height: 60px;
+    }
+    .mag4{
+        border-radius: 30px;
+        height: 60px;
+        width: 60px;
+    }
+    .mag1{
+        border-radius: 10px 0px 0px 10px;
+        height: 60px;
+    }
+    .mag2{
+        border-radius: 0px 0px 0px 0px;
+        height: 52px;
+        padding-left: 100px;
+    }
+    .mag2::placeholder{
+        color: black;
+        font-size: 0.7em;
+    }
+    .mag3{
+        border-radius: 0px 10px 10px 0px;
+        height: 60px;
     }
     .filtres{
         font-size: 3em;
@@ -81,9 +103,12 @@
         display: none;
     }
     .sert1,.sert3{
-        font-size: 50%;
+        font-size: 30%;
     }
     .sert2{
+        font-size: 70%;
+    }
+    .sert{
         font-size: 70%;
     }
     .bleu{
@@ -110,18 +135,18 @@
         margin-left: 600px;
     }
     .insert{
-        margin-block-start: 60px;
-        margin-left: -640px;
+        margin-block-start: 75px;
+        margin-left: -680px;
     }
     .insert1{
-        margin-block-start: 120px;
-        margin-left: -345px;
+        margin-block-start: 150px;
+        margin-left: -365px;
     }
     .insert2{
-        margin-block-start: 60px;
+        margin-block-start: 75px;
     }
     .insert3{
-        margin-block-start: 120px;
+        margin-block-start: 150px;
     }
     .Economique{
         margin-left: -5px;
@@ -129,11 +154,17 @@
     .img{
         width: 90% !important;
     }
+    .logo{
+        object-fit: cover;
+        width: 40%;
+        height: 40px;
+        margin-block-start: 70px;
+    }
+    #infos{
+        line-height: 30px;
+    }
 
 
-
-
-      
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -162,6 +193,12 @@
     .btn-group{
         padding-left: 80px;
         font-size: 2em;
+        height: 60px;
+    }
+    .mag4{
+        border-radius: 30px;
+        height: 60px;
+        width: 60px;
     }
     .filtres{
         font-size: 2em;
@@ -222,9 +259,12 @@
         display: none;
     }
     .sert1,.sert3{
-        font-size: 50%;
+        font-size: 30%;
     }
     .sert2{
+        font-size: 70%;
+    }
+    .sert{
         font-size: 70%;
     }
     .bleu{
@@ -244,21 +284,21 @@
         flex-direction: column;
     }
     .fa-chart-line{
-        margin-left: 350px;
+        margin-left: 500px;
     }
     .insert{
-        margin-block-start: 60px;
-        margin-left: -640px;
+        margin-block-start: 75px;
+        margin-left: -680px;
     }
     .insert1{
-        margin-block-start: 120px;
-        margin-left: -345px;
+        margin-block-start: 150px;
+        margin-left: -365px;
     }
     .insert2{
-        margin-block-start: 60px;
+        margin-block-start: 75px;
     }
     .insert3{
-        margin-block-start: 120px;
+        margin-block-start: 150px;
     }
     .Economique{
         margin-left: -5px;
@@ -282,6 +322,33 @@
         object-fit: cover;
         height: 70px;
         padding-top: 30px;
+    }
+    .mag1{
+        border-radius: 20px 0px 0px 20px;
+        height: 60px;
+        border-right: white;
+    }
+    .mag2{
+        border-radius: 0px 0px 0px 0px;
+        height: 52px;
+        width: 90%;
+    }
+    .mag2::placeholder{
+        color: black;
+        font-size: 0.7em;
+    }
+    .mag3{
+        border-radius: 20px 20px 20px 20px;
+        height: 60px;
+    }
+    .logo{
+        object-fit: cover;
+        width: 40%;
+        height: 40px;
+        margin-block-start: 70px;
+    }
+    #infos{
+        line-height: 30px;
     }
 
 }
