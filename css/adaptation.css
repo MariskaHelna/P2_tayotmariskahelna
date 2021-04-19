@@ -42,6 +42,7 @@
     .mag2::placeholder{
         color: black;
         font-size: 0.7em;
+        font-weight: bold;
     }
     .mag3{
         border-radius: 0px 10px 10px 0px;
@@ -136,11 +137,11 @@
     }
     .insert{
         margin-block-start: 75px;
-        margin-left: -680px;
+        margin-left: -700px;
     }
     .insert1{
         margin-block-start: 150px;
-        margin-left: -365px;
+        margin-left: -375px;
     }
     .insert2{
         margin-block-start: 75px;
@@ -163,7 +164,6 @@
     #infos{
         line-height: 30px;
     }
-
 
 }
 
@@ -194,6 +194,7 @@
         padding-left: 80px;
         font-size: 2em;
         height: 60px;
+        font-weight:bold;
     }
     .mag4{
         border-radius: 30px;
@@ -253,7 +254,6 @@
     .bouton1{
         display: flex;
         font-size: xx-large;
-        text-align-last: center;
     }
     .bouton{
         display: none;
@@ -288,11 +288,11 @@
     }
     .insert{
         margin-block-start: 75px;
-        margin-left: -680px;
+        margin-left: -700px;
     }
     .insert1{
         margin-block-start: 150px;
-        margin-left: -365px;
+        margin-left: -375px;
     }
     .insert2{
         margin-block-start: 75px;
@@ -336,6 +336,7 @@
     .mag2::placeholder{
         color: black;
         font-size: 0.7em;
+        font-weight:bold;
     }
     .mag3{
         border-radius: 20px 20px 20px 20px;

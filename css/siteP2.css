@@ -4,7 +4,7 @@
     background-color:#F2F2F2;
     justify-content: space-around;
     font-size: 1.3em;
-    line-height: 7px;
+    line-height: 10px;
 }
 .heberge {
     width: auto;
@@ -79,6 +79,8 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     outline:none;
+    font-weight:bold;
+
 }
 .btn-group:hover{
     color: blue;
@@ -106,10 +108,12 @@ body{
 .mag2{
     border-radius: 0px 0px 0px 0px;
     height: 35px;
+    border-right: white;
     padding-left: 100px;
 }
 .mag2::placeholder{
     color: black;
+    font-weight:bold;
 }
 .mag3{
     border-radius: 0px 10px 10px 0px;
