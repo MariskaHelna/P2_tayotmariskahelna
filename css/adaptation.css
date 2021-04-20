@@ -81,7 +81,6 @@
     }
     .margin,.margin1{
         margin-left: 40px;
-        font-size: 3em;
     }
     .heberge{
         background-color: white;
@@ -193,13 +192,13 @@
     .btn-group{
         padding-left: 80px;
         font-size: 2em;
-        height: 60px;
+        height: 80px;
         font-weight:bold;
     }
     .mag4{
-        border-radius: 30px;
-        height: 60px;
-        width: 60px;
+        border-radius: 40px;
+        height: 80px;
+        width: 80px;
     }
     .filtres{
         font-size: 2em;
@@ -217,7 +216,7 @@
         font-size: 2em;
     }
     h4,h3,p{
-        font-size: 1.6em;
+        font-size: 2em;
     }
     h2{
         font-size: 2.5em;
@@ -286,18 +285,18 @@
         margin-left: 400px;
     }
     .insert{
-        margin-block-start: 75px;
-        margin-left: -700px;
+        margin-block-start: 100px;
+        margin-left: -735px;
     }
     .insert1{
-        margin-block-start: 150px;
-        margin-left: -380px;
+        margin-block-start: 200px;
+        margin-left: -400px;
     }
     .insert2{
-        margin-block-start: 75px;
+        margin-block-start: 100px;
     }
     .insert3{
-        margin-block-start: 150px;
+        margin-block-start: 200px;
     }
     .Economique{
         margin-left: -5px;
@@ -319,17 +318,17 @@
         line-height: 3px;
         width: 100%;
         object-fit: cover;
-        height: 70px;
+        height: 90px;
         padding-top: 30px;
     }
     .mag1{
         border-radius: 20px 0px 0px 20px;
-        height: 60px;
+        height: 80px;
         border-right: white;
     }
     .mag2{
         border-radius: 0px 0px 0px 0px;
-        height: 52px;
+        height: 75px;
         width: 90%;
     }
     .mag2::placeholder{
@@ -339,7 +338,7 @@
     }
     .mag3{
         border-radius: 20px 20px 20px 20px;
-        height: 60px;
+        height: 80px;
     }
     .logo{
         object-fit: cover;
