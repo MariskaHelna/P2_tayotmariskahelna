@@ -23,20 +23,20 @@
     .btn-group{
         padding-left: 80px;
         font-size: 2em;
-        height: 60px;
+        height: 80px;
     }
     .mag4{
-        border-radius: 30px;
-        height: 60px;
-        width: 60px;
+        border-radius: 40px;
+        height: 80px;
+        width: 80px;
     }
     .mag1{
         border-radius: 10px 0px 0px 10px;
-        height: 60px;
+        height: 80px;
     }
     .mag2{
         border-radius: 0px 0px 0px 0px;
-        height: 52px;
+        height: 75px;
         padding-left: 100px;
     }
     .mag2::placeholder{
@@ -46,7 +46,7 @@
     }
     .mag3{
         border-radius: 0px 10px 10px 0px;
-        height: 60px;
+        height: 80px;
     }
     .filtres{
         font-size: 3em;
@@ -62,13 +62,13 @@
     }
 
     .next1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
-    h4{
-        font-size: 1.4em;
+    h2{
+        font-size: 2.5em;
     }
-    h2,h3,p{
-        font-size: 1.5em;
+    h4,h3,p{
+        font-size: 1.6em;
     }
     h1{
         font-size: 3em;
@@ -141,7 +141,7 @@
     }
     .insert1{
         margin-block-start: 150px;
-        margin-left: -375px;
+        margin-left: -380px;
     }
     .insert2{
         margin-block-start: 75px;
@@ -213,15 +213,14 @@
         width: 30px;
         height: 30px;
     }
-
     .next1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     h4,h3,p{
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
     h2{
-        font-size: 2em;
+        font-size: 2.5em;
     }
     h1{
         font-size: 3em;
@@ -284,7 +283,7 @@
         flex-direction: column;
     }
     .fa-chart-line{
-        margin-left: 500px;
+        margin-left: 400px;
     }
     .insert{
         margin-block-start: 75px;
@@ -292,7 +291,7 @@
     }
     .insert1{
         margin-block-start: 150px;
-        margin-left: -375px;
+        margin-left: -380px;
     }
     .insert2{
         margin-block-start: 75px;
@@ -317,7 +316,7 @@
         height: 200px;
     }
     .img20,.img10{
-        line-height: 2px;
+        line-height: 3px;
         width: 100%;
         object-fit: cover;
         height: 70px;
