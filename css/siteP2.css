@@ -55,7 +55,7 @@ body{
 }
 .logo{
     object-fit: cover;
-    width: 70%;
+    width: 40%;
     height: 70px;
 }
 .next{
@@ -189,7 +189,8 @@ background: #0065FC;
 }
 .ancre{
     color: #0065FC;
-    border-top: 2px solid blue;
+    border-top: 2px solid #0065FC ;
+    padding-top: 15px;
     text-decoration: none;
 }
 .ancre1{
