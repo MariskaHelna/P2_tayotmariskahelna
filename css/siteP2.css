@@ -3,11 +3,11 @@
    display: flex;
     background-color:#F2F2F2;
     justify-content: space-around;
-    font-size: 1.3em;
     line-height: 10px;
+    width: 100%;
 }
 .heberge {
-    width: auto;
+    width: 100%;
     background-color: #F2F2F2;
 }
 .filtres{
@@ -23,12 +23,11 @@
 }
 #client{
     display: flex;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    width: 100%;
 }
 #monument{
     display:flex;
-    flex-direction: row;
-    justify-content: space-around;
     width: 100%;
 }
 
@@ -37,6 +36,7 @@ section{
     flex-direction: row;
     margin-right: auto;
     justify-content: space-evenly;
+    width: 100%;
 }
 body{
     font-family: Raleway,trebuchet MS, sans-serif;
@@ -48,15 +48,14 @@ body{
 
 .reservia{
     display: flex;
+    width: 100%;
 }
 .logo-reservia{
     margin-left: 20px;
     max-height: 150px;
 }
 .logo{
-    object-fit: cover;
-    width: 40%;
-    height: 70px;
+    width: 70%;
 }
 .next{
     border-radius: 20px;
@@ -70,17 +69,23 @@ body{
     margin-bottom: 20px;
 }
 .btn-group{
-    border-radius: 0px 50px 50px 0px;
-    height: 40px;
-    font-size: 1.5em;
-    background: white;
-    border-color: #F2F2F2;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px 30px 30px 30px;
+    font-weight: bolder;
     margin-right: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    outline:none;
-    font-weight:bold;
-
+    font-size: 1.5em;
+    padding: 7px;
+    padding-left: 0;
+}
+.btn-group span{
+    border-radius: 20px;
+    background-color: #DEEBFF;
+    margin-right: 10px;
+    padding: 10px;
+}
+.btn-group span i{
+    font-size: smaller;
+    width: 20px;
 }
 .btn-group:hover{
     color: blue;
@@ -100,8 +105,8 @@ body{
     background: #F2F2F2;
     height: 40px;
     outline:none;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
     border-right: white;
     
 }   
@@ -122,17 +127,6 @@ body{
     padding-left: 30px;
     padding-right: 30px;
     color: white;
-}
-.mag4{
-    border:#DEEBFF;
-    border-radius: 20px;
-    height: 40px;
-    width: 40px;
-    margin-right: -20px;
-    background-color: #DEEBFF;
-}
-.sert{
-    z-index: 0;
 }
 #populaires ,.popu {
     display: flex;
@@ -155,7 +149,7 @@ body{
     margin-left:25px;
 }
 .margin1{
-    margin-left: 60px;
+    margin-left: 20px;
 }
 h1, .PCV {
     margin-left: 30px;
@@ -182,7 +176,7 @@ background: #0065FC;
     display: flex;
 }
 .filtres{
-    font-size: 2em;
+    font-size: 1.2em;
 }
 .PCV{
     color: grey;
@@ -190,7 +184,6 @@ background: #0065FC;
 .ancre{
     color: #0065FC;
     border-top: 2px solid #0065FC ;
-    padding-top: 15px;
     text-decoration: none;
 }
 .ancre1{
@@ -219,5 +212,7 @@ background: #0065FC;
     height: 70px;
     padding-top: 20px!important;
 }
-
-
+.text-decorative{
+    text-decoration: none;
+    color: black;
+}
