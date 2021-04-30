@@ -1,11 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 250px) and (max-width: 767px) {
     .card {
-        width: 90%;
+        width: auto;
     }
 
     .card-large{
-        width: 90% !important;
+        width: auto;
     }
     section{
         flex-direction: column-reverse;
@@ -21,12 +21,8 @@
         flex-direction: column;
     }
     .btn-group{
-        font-size: 2em;
-    }
-    .mag4{
-        border-radius: 40px;
-        height: 80px;
-        width: 80px;
+        font-size: xxx-large;
+        display: flex;
     }
     .mag1{
         border-radius: 10px 0px 0px 10px;
@@ -35,7 +31,6 @@
     .mag2{
         border-radius: 0px 0px 0px 0px;
         height: 75px;
-        padding-left: 100px;
     }
     .mag2::placeholder{
         color: black;
@@ -66,20 +61,29 @@
     h2{
         font-size: 2.5em;
     }
-    h4,h3,p{
-        font-size: 1.6em;
+    h4,h3{
+        font-size: 2.5em;
+    }
+    h5{
+        font-size: 1em;
+    }
+    p{
+        font-size: 2em;
     }
     h1{
         font-size: 3em;
     }
-    .rating,.rating1{
-        font-size: 1em;
+    .espace4{
+        margin-block-start: 25px;
+    }
+    .espace{
+        font-size: 2.5em;
+    }
+    .espace2{
+        font-size: 2.5em;
     }
     header{
         margin-left: 20px;
-    }
-    .margin,.margin1{
-        margin-left: 40px;
     }
     .heberge{
         background-color: white;
@@ -91,7 +95,6 @@
         display: flex;
         justify-content: space-around;
         font-size: 2em;
-        margin-left: 100px;
     }
     .bouton1{
         display: flex;
@@ -123,26 +126,28 @@
        width: 100%;
     }
     .client{
-        margin-left: 200px;
+        margin-left: 20px;
         margin-block-start: 50px;
     }
     .a-propos, .nos-hebergements,.assistance{
         margin-left: 30px;
+        font-size: 0.7em !important;
     }
     #villes{
         flex-direction: column;
     }
-    .fa-chart-line{
-        margin-left: 600px;
-    }
-    .Economique{
-        margin-left: -5px;
-    }
     .img{
-        width: 90% !important;
+        width: 100%;
     }
     #infos{
         line-height: 30px;
+    }
+    .Economique {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .logo{
+      width: 60%;
     }
 
 }
@@ -150,11 +155,10 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .card {
-        width: 90%;
+        width: auto;
     }
     .card-large{
-        width: 90% !important;
-    
+        width: auto;
     }
 
     section{
@@ -171,14 +175,24 @@
         flex-direction: column;
     }
     .btn-group{
-        font-size: 2em;
+        font-size: xxx-large;
         font-weight:bold;
         width: 100%;
+        text-align: center;
+        display: flex;
+        border-radius: 50px 50px 50px 50px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-right: 20px;
     }
-    .mag4{
-        border-radius: 40px;
-        height: 80px;
-        width: 100%;
+    .color-bleu-icon{
+        width: 80px;
+        font-size: xxx-large;
+        margin-right: 10px;
+        object-fit: cover;
+        height: 70px;
+        border-radius: 50px 50px 50px 50px;
+        text-align: center;
     }
     .filtres{
         font-size: 2em;
@@ -196,7 +210,13 @@
     .next1{
         font-size: 2em;
     }
-    h4,h3,p{
+    h4,h3{
+        font-size: 2.5em;
+    }
+    h5{
+        font-size: 1em;
+    }
+    p{
         font-size: 2em;
     }
     h2{
@@ -205,14 +225,14 @@
     h1{
         font-size: 3em;
     }
-    .rating,.rating1{
-        font-size: 1em;
+    .espace4{
+        margin-block-start: 25px;
     }
     header{
         margin-left: 20px;
     }
-    .margin,.margin1{
-        margin-left: 40px;
+    .margin1{
+        margin-left: 30px;
     }
     .heberge{
         background-color: white;
@@ -221,9 +241,14 @@
         display: none;
     }
     .client{
-        margin-left: 200px;
-        margin-block-start: 50px;
-        width: 100%;
+        margin-left: 20px;
+        font-size: 1.5em;
+    }
+    .espace{
+        font-size: 2.5em;
+    }
+    .espace2{
+        font-size: 2.5em;
     }
     .mobile-tabs{
         display: flex;
@@ -242,7 +267,7 @@
         font-size: 30%;
     }
     .sert2{
-        font-size: 70%;
+        font-size: 100%;
     }
     .bleu{
         color: #0065FC;
@@ -258,12 +283,13 @@
     }
     .a-propos, .nos-hebergements,.assistance{
         margin-left: 30px;
+        font-size: 0.7em !important;
     }
     #villes{
         flex-direction: column;
     }
     .fa-chart-line{
-        margin-left: 400px;
+        margin-left: 10px;
     }
     
     .card-img {
@@ -275,9 +301,9 @@
         border-radius: 10px 0 0 10px;
     }
     .img{
-        width: 100% !important;
+        width: 100%;
         object-fit: cover;
-        height: 300px;
+        height: 250px;
     }
     .img20,.img10{
         line-height: 3px;
@@ -290,11 +316,15 @@
         border-radius: 20px 0px 0px 20px;
         height: 80px;
         border-right: white;
+        font-size: 4em;
+        padding-right: 30px;
+        padding-left: 30px;
+        object-fit: cover;
     }
     .mag2{
-        border-radius: 0px 0px 0px 0px;
         height: 75px;
-        width: 90%;
+        object-fit: cover;
+        width: 100%;
     }
     .mag2::placeholder{
         color: black;
@@ -304,9 +334,19 @@
     .mag3{
         border-radius: 20px 20px 20px 20px;
         height: 80px;
+        font-size: 4em;
+        object-fit: cover;
+        width: 100%;
     }
     #infos{
         line-height: 30px;
+    }
+    .Economique{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 60%;
     }
 
 }
@@ -331,26 +371,49 @@
     .sert2{
         font-size: 70%;
     }
-    #client{
-        margin-left: 300px;
-    }
     .a-propos, .nos-hebergements,.assistance{
         margin-left: 30px;
-    }
-    .fa-chart-line{
-        margin-left: 100px;
+        font-size: 1.2em;
     }
     .margin, .margin1{
-        margin-left: 40px;
-    }
-    .Economique{
-        margin-left: -5px;
+        margin-left: 30px;
     }
     .btn-group{
-        padding-left: 20px;
-        padding-right: 20px;
+        display: flex;
+    }
+    .Economique{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    h4,p{
         font-size: 1.5em;
     }
+    .espace{
+        font-size: 1.5em;
+    }
+    .fa-chart-line{
+        font-size: x-large;
+        margin-left: 10px;
+    }
+    .btn-group{
+        border: 2px solid #F2F2F2;
+        border-radius: 30px 30px 30px 30px;
+        font-weight: bolder;
+        font-size: 1.2em;
+        padding: 6px;
+        padding-left: 0;
+        margin: 10px;
+        padding-right: 15px;
+    }  
+    .color-bleu-icon{
+        border-radius: 20px;
+        background-color: #DEEBFF;
+        margin-right: 10px;
+        padding:8px;
+        width: 30px;
+        text-align: center;
+    }
+
 }
 
 
@@ -358,11 +421,35 @@
     .mobile-tabs{
         display: none;
     }
-    #client{
-        margin-left: 450px;
-    }
     .bouton1{
         display: none;
+    }
+    h4,p{
+        font-size: 1.0em;
+    }
+    .espace{
+        font-size: 1.5em;
+    }
+    .fa-chart-line{
+        font-size: x-large;
+    }
+    .btn-group{
+        border: 2px solid #F2F2F2;
+        border-radius: 30px 30px 30px 30px;
+        font-weight: bolder;
+        font-size: 1.2em;
+        padding: 6px;
+        padding-left: 0;
+        margin: 10px;
+        padding-right: 15px;
+    }  
+    .color-bleu-icon{
+        border-radius: 20px;
+        background-color: #DEEBFF;
+        margin-right: 10px;
+        padding:8px;
+        width: 30px;
+        text-align: center;
     }
 
 }
@@ -370,23 +457,47 @@
 
 @media only screen and (min-width: 1820px) {
     .card {
-        width: 23em;
+        width: auto;
     }
 
     .card-large{
-        width: 23em !important;
+        width: auto;
     }
     .card-decale{
-        width: 26em;
-    }
-    #client{
-        margin-left: 700px;
+        width: auto;
     }
     .mobile-tabs{
         display: none;
     }
     .bouton1{
         display: none;
+    }
+    h4,p{
+        font-size: 1.0em;
+    }
+    .espace{
+        font-size: 1.5em;
+    }
+    .fa-chart-line{
+        font-size: x-large;
+    }
+    .btn-group{
+        border: 2px solid #F2F2F2;
+        border-radius: 30px 30px 30px 30px;
+        font-weight: bolder;
+        font-size: 1.2em;
+        padding: 6px;
+        padding-left: 0;
+        margin: 10px;
+        padding-right: 15px;
+    }  
+    .color-bleu-icon{
+        border-radius: 20px;
+        background-color: #DEEBFF;
+        margin-right: 10px;
+        padding:8px;
+        width: 30px;
+        text-align: center;
     }
 
 }
