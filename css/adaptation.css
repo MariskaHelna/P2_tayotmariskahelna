@@ -127,7 +127,7 @@
     }
     .client{
         margin-left: 20px;
-        margin-block-start: 50px;
+        margin-block-start: 20px;
     }
     .a-propos, .nos-hebergements,.assistance{
         margin-left: 30px;
@@ -187,12 +187,12 @@
     }
     .color-bleu-icon{
         width: 80px;
+        text-align: center;
         font-size: xxx-large;
         margin-right: 10px;
         object-fit: cover;
         height: 70px;
         border-radius: 50px 50px 50px 50px;
-        text-align: center;
     }
     .filtres{
         font-size: 2em;
@@ -243,6 +243,7 @@
     .client{
         margin-left: 20px;
         font-size: 1.5em;
+        margin-block-start: 20px;
     }
     .espace{
         font-size: 2.5em;
