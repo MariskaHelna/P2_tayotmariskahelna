@@ -57,9 +57,16 @@
 
     .next1{
         font-size: 2em;
+        margin-bottom: 40px;
     }
-    h2{
-        font-size: 2.5em;
+    .font-size1{
+        font-size: 1.5em;
+    }
+    .font-size{
+        font-size: 3em;
+    }
+    .font-size2{
+        font-size: 2em;
     }
     h4,h3{
         font-size: 2.5em;
@@ -67,20 +74,12 @@
     h5{
         font-size: 1em;
     }
-    p{
-        font-size: 2em;
-    }
     h1{
-        font-size: 3em;
+        font-size: 3.5em;
     }
+   
     .espace4{
         margin-block-start: 25px;
-    }
-    .espace{
-        font-size: 2.5em;
-    }
-    .espace2{
-        font-size: 2.5em;
     }
     header{
         margin-left: 20px;
@@ -126,8 +125,8 @@
        width: 100%;
     }
     .client{
-        margin-left: 20px;
-        margin-block-start: 20px;
+        margin-block-start: 10px;
+        margin-right: 30px;
     }
     .a-propos, .nos-hebergements,.assistance{
         margin-left: 30px;
@@ -209,6 +208,16 @@
     }
     .next1{
         font-size: 2em;
+        margin-bottom: 40px;
+    }
+    .font-size1{
+        font-size: 1.5em;
+    }
+    .font-size{
+        font-size: 3em;
+    }
+    .font-size2{
+        font-size: 2em;
     }
     h4,h3{
         font-size: 2.5em;
@@ -216,14 +225,8 @@
     h5{
         font-size: 1em;
     }
-    p{
-        font-size: 2em;
-    }
-    h2{
-        font-size: 2.5em;
-    }
     h1{
-        font-size: 3em;
+        font-size: 3.5em;
     }
     .espace4{
         margin-block-start: 25px;
@@ -241,15 +244,9 @@
         display: none;
     }
     .client{
-        margin-left: 20px;
         font-size: 1.5em;
-        margin-block-start: 20px;
-    }
-    .espace{
-        font-size: 2.5em;
-    }
-    .espace2{
-        font-size: 2.5em;
+        margin-block-start: 10px;
+        margin-right: 30px;
     }
     .mobile-tabs{
         display: flex;
@@ -307,7 +304,6 @@
         height: 250px;
     }
     .img20,.img10{
-        line-height: 3px;
         width: 100%;
         object-fit: cover;
         height: 90px;

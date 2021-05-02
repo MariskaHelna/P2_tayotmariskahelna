@@ -5,6 +5,7 @@
     justify-content: space-around;
     line-height: 10px;
     width: 100%;
+    padding-top: 25px;
 }
 .heberge {
     width: 100%;
@@ -23,10 +24,12 @@
     font-size: 1.3em;
     width: 100%;
     justify-content: flex-end;
+    margin-block-start: 25px;
 }
 #monument{
     display:flex;
     width: 100%;
+    justify-content: center;
 }
 
 section{
@@ -184,6 +187,7 @@ background: #0065FC;
     color: #0065FC;
     border-top: 2px solid #0065FC ;
     text-decoration: none;
+    padding-top: 20px;
 }
 .ancre1{
     color: grey;
