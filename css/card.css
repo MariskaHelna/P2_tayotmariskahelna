@@ -16,7 +16,7 @@
   }
   
   .container {
-    padding: 2px 16px;
+    padding: 8px 11px;
   }
 
   .card-img {
@@ -26,9 +26,35 @@
   }
   .card-img1 {
     object-fit: cover;
-    width: 100%;
+    width: 160px;
     border-radius: 10px 0 0 10px;
+    height: 160px;
   }
+  .card-img2 {
+    object-fit: cover;
+    width: 290px;
+    border-radius: 10px 10px 0 0;
+    height: 380px;
+  }
+  .card-img3{
+    object-fit: cover;
+    width: 290px;
+    border-radius: 10px 10px 0 0;
+    height: 160px;
+  }
+  .card-img4 {
+    object-fit: cover;
+    width: 290px;
+    border-radius: 10px 10px 0 0;
+    height: 120px;
+  }
+  .card-img5 {
+    object-fit: cover;
+    width: 290px;
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+  }
+
   .no-margin {
       margin: auto !important;
   }
