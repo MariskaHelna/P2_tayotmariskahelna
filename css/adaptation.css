@@ -144,6 +144,9 @@
     .logo{
       width: 60%;
     }
+    .container{
+        width: 600px;
+    }
 
 }
 
@@ -342,6 +345,9 @@
     }
     .logo{
         width: 60%;
+    }
+    .container{
+        width: 600px;
     }
 
 }
