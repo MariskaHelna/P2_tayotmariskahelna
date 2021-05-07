@@ -145,7 +145,7 @@ body{
     margin-left:25px;
 }
 .margin1{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 h1, .PCV {
     margin-left: 30px;
@@ -198,7 +198,7 @@ background: #0065FC;
     width: 50%;
 }
 .img60{
-    width: 100% !important;
+    width: 100%;
     object-fit: cover;
     height: 150px;
 }
