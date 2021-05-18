@@ -5,11 +5,14 @@
     border-radius: 20px;
     padding: 5px;
     height: fit-content;
-    margin: 20px;
     width: 100%;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
   }
   .card-large{
     width: auto;
+    height: fit-content;
   }
   .card:hover , .card1:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -17,43 +20,7 @@
   
   .container {
     padding: 8px 11px;
-    width: 220px;
-  }
-
-  .card-img {
-    object-fit: cover;
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-  }
-  .card-img1 {
-    object-fit: cover;
-    width: 160px;
-    border-radius: 10px 0 0 10px;
-    height: 160px;
-  }
-  .card-img2 {
-    object-fit: cover;
-    width: 290px;
-    border-radius: 10px 10px 0 0;
-    height: 380px;
-  }
-  .card-img3{
-    object-fit: cover;
-    width: 290px;
-    border-radius: 10px 10px 0 0;
-    height: 150px;
-  }
-  .card-img4 {
-    object-fit: cover;
-    width: 290px;
-    border-radius: 10px 10px 0 0;
-    height: 120px;
-  }
-  .card-img5 {
-    object-fit: cover;
-    width: 290px;
-    border-radius: 10px 10px 0 0;
-    height: 190px;
+    width: 214px;
   }
 
   .no-margin {
@@ -71,4 +38,6 @@
  .card-decale{
      display: flex;
      width: auto;
+     height: fit-content;
  }
+ 
