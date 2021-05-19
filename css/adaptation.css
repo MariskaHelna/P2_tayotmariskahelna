@@ -56,8 +56,13 @@
     .next1{
         margin-bottom: 40px;
     }
-    .font-size1,.ancre2{
+    .font-size1{
         font-size: 1.5em;
+    }
+    .ancre2{
+        font-size: 1.5em;
+        position: relative;
+        bottom: 35px;
     }
     .font-size{
         font-size: 3em;
@@ -93,15 +98,15 @@
     }
     .bleu{
     color:#0065FC;
-    border-bottom: 2px solid #0065FC;
+    border-bottom: 4px solid #0065FC;
     padding-bottom: 40px;
-        width: 100%;
+        width: 100% !important;
     }
    .grey{
     color: grey;
-    border-bottom: 2px solid#F2F2F2;
+    border-bottom: 4px solid#F2F2F2;
     padding-bottom: 40px;
-       width: 100%;
+       width: 100% !important;
     }
     .client{
         margin-block-start: 10px;
@@ -124,7 +129,10 @@
         justify-content: space-between;
     }
     .logo{
-      width: 100%;
+      width: 77%;
+    }
+    header{
+        line-height: 114px;
     }
     .container{
         width: 600px;
@@ -135,7 +143,11 @@
     }
     .text{
         font-size: 1.5em;
-        margin-block-start: 40px;
+        width: 90%;
+        position: absolute;
+        line-height: 220px;
+        justify-content: space-between;
+        
     }
     .fa-info{
         color: #0065FC;
@@ -231,8 +243,13 @@
     .next1{
         margin-bottom: 40px;
     }
-    .font-size1,.ancre2{
+    .font-size1{
         font-size: 1.5em;
+    }
+    .ancre2{
+        font-size: 1.5em;
+        position: relative;
+        bottom: 35px;
     }
     .font-size{
         font-size: 3em;
@@ -272,15 +289,15 @@
     }
     .bleu{
         color: #0065FC;
-        border-bottom:2px solid #0065FC;
+        border-bottom:4px solid #0065FC;
         padding-bottom: 40px;
-        width: 100%;
+        width: 100% !important;
     }
     .grey{
         color: grey;
-        border-bottom:2px solid #F2F2F2;
+        border-bottom:4px solid #F2F2F2;
         padding-bottom: 40px;
-        width: 100%;
+        width: 100% !important;
     }
     .a-propos, .nos-hebergements,.assistance{
         margin-left: 30px;
@@ -345,7 +362,10 @@
         justify-content: flex-start;
     }
     .logo{
-        width: 100%;
+        width: 77%;
+    }
+    header{
+        line-height: 114px;
     }
     .container{
         width: 600px;
@@ -355,8 +375,12 @@
         padding-top: 0;
     }
     .text{
-        margin-block-start: 40px;
         font-size: 1.5em;
+        width: 90%;
+        position: absolute;
+        line-height: 220px;
+        justify-content: space-between;
+
     }
     .heberge {
         width: 100%;
