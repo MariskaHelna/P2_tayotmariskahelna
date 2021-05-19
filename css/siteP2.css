@@ -12,16 +12,10 @@
     font-size: 1.2em;
     margin-block-start: 5px;
 }
-.client{
+.client,.client1{
     margin-right: 30px;
 }
-#client{
-    display: flex;
-    font-size: 1.3em;
-    width: 100%;
-    justify-content: flex-end;
-    margin-block-start: 25px;
-}
+
 #monument{
     display:flex;
     width: 100%;
@@ -184,12 +178,7 @@ background: #0065FC;
 }
 .img70{
     width: 50%;
-}/*
-.img60{
-    width: 100%;
-    object-fit: cover;
-    height: 150px;
-}*/
+}
 .img10{
     line-height: 2px;
     width: 100%;

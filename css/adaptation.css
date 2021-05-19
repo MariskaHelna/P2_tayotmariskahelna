@@ -60,7 +60,7 @@
         font-size: 1.5em;
     }
     .ancre2{
-        font-size: 1.5em;
+        font-size: xxx-large;
         position: relative;
         bottom: 35px;
     }
@@ -96,22 +96,7 @@
     .sert{
         font-size: 70%;
     }
-    .bleu{
-    color:#0065FC;
-    border-bottom: 4px solid #0065FC;
-    padding-bottom: 40px;
-        width: 100% !important;
-    }
-   .grey{
-    color: grey;
-    border-bottom: 4px solid#F2F2F2;
-    padding-bottom: 40px;
-       width: 100% !important;
-    }
-    .client{
-        margin-block-start: 10px;
-        margin-right: 30px;
-    }
+    
     .a-propos, .nos-hebergements,.assistance{
         margin-left: 30px;
     }
@@ -140,15 +125,36 @@
     .ancre{
         padding-top: 0;
         border-top: 0;
+        padding: 10px;
     }
     .text{
-        font-size: 1.5em;
-        width: 90%;
+        font-size: xxx-large;
+        width: 100%;
         position: absolute;
-        line-height: 220px;
+        top: 90px;
         justify-content: space-between;
         
     }
+    .bleu{
+        color:#0065FC;
+        border-bottom: 4px solid #0065FC;
+        width: 50%;
+        }
+       .grey{
+        color: grey;
+        border-bottom: 4px solid#F2F2F2;
+        width: 50%;
+        }
+        .client{
+            margin-block-start: 10px;
+            margin-right: 30px;
+            margin: 0;
+            text-align: center;
+        }
+        .client1{
+            margin-block-start: 10px;
+            margin-right: 30px;
+        }
     .fa-info{
         color: #0065FC;
         background-color: white;
@@ -174,6 +180,12 @@
     .recherche{
         display: none;
       }
+      #client{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        margin-block-start: 25px;
+    }
     
 
 }
@@ -247,7 +259,7 @@
         font-size: 1.5em;
     }
     .ancre2{
-        font-size: 1.5em;
+        font-size: xxx-large;
         position: relative;
         bottom: 35px;
     }
@@ -276,28 +288,11 @@
     .heberge{
         background-color: white;
     }
-    .client{
-        font-size: 1.5em;
-        margin-block-start: 10px;
-        margin-right: 30px;
-    }
     .sert1,.sert3{
         font-size: 30%;
     }
     .sert2{
         font-size: 100%;
-    }
-    .bleu{
-        color: #0065FC;
-        border-bottom:4px solid #0065FC;
-        padding-bottom: 40px;
-        width: 100% !important;
-    }
-    .grey{
-        color: grey;
-        border-bottom:4px solid #F2F2F2;
-        padding-bottom: 40px;
-        width: 100% !important;
     }
     .a-propos, .nos-hebergements,.assistance{
         margin-left: 30px;
@@ -373,15 +368,36 @@
     .ancre{
         border-top: 0;
         padding-top: 0;
+        padding: 10px;
     }
     .text{
-        font-size: 1.5em;
-        width: 90%;
+        font-size: xxx-large;
+        width: 100%;
         position: absolute;
-        line-height: 220px;
+        top: 90px;
         justify-content: space-between;
 
     }
+    .bleu{
+        color:#0065FC;
+        border-bottom: 4px solid #0065FC;
+        width: 50%;
+        }
+       .grey{
+        color: grey;
+        border-bottom: 4px solid#F2F2F2;
+        width: 50%;
+        }
+        .client{
+            margin-block-start: 10px;
+            margin-right: 30px;
+            margin: 0;
+            text-align: center;
+        }
+        .client1{
+            margin-block-start: 10px;
+            margin-right: 30px;
+        }
     .heberge {
         width: 100%;
         background-color: #F2F2F2;
@@ -397,6 +413,12 @@
     .recherche{
         display: none;
       }
+      #client{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        margin-block-start: 25px;
+    }
       
 }
 
@@ -528,6 +550,13 @@
       .fa-search{
           display: none !important;
       }
+      #client{
+        display: flex;
+        font-size: 1.3em;
+        width: 100%;
+        justify-content: flex-end;
+        margin-block-start: 25px;
+    }
 
 }
 
@@ -620,6 +649,13 @@
       }
       .fa-search{
         display: none !important;
+    }
+    #client{
+        display: flex;
+        font-size: 1.3em;
+        width: 100%;
+        justify-content: flex-end;
+        margin-block-start: 25px;
     }
 
 
@@ -734,6 +770,13 @@
       }
       .fa-search{
         display: none !important;
+    }
+    #client{
+        display: flex;
+        font-size: 1.3em;
+        width: 100%;
+        justify-content: flex-end;
+        margin-block-start: 25px;
     }
 
 
@@ -851,6 +894,13 @@
       }
       .fa-search{
         display: none !important;
+    }
+    #client{
+        display: flex;
+        font-size: 1.3em;
+        width: 100%;
+        justify-content: flex-end;
+        margin-block-start: 25px;
     }
 
 
@@ -992,6 +1042,13 @@
       }
       .fa-search{
         display: none !important;
+    }
+    #client{
+        display: flex;
+        font-size: 1.3em;
+        width: 100%;
+        justify-content: flex-end;
+        margin-block-start: 25px;
     }
 
 
