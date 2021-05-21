@@ -920,7 +920,7 @@
     background-color: #F2F2F2;
     }
     .card {
-        width: auto;
+        width: 100%;
     }
 
     .card-large{
