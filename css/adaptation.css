@@ -557,6 +557,9 @@
         justify-content: flex-end;
         margin-block-start: 25px;
     }
+    .font-size1{
+        font-size: 1em;
+    }
 
 }
 
