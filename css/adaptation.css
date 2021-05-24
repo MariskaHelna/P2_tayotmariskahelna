@@ -439,13 +439,13 @@
     }
     .a-propos, .nos-hebergements,.assistance{
         margin-left: 30px;
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .margin, .margin1{
         margin-left: 30px;
     }
     h4,p{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .espace{
         font-size: 1.5em;
@@ -464,6 +464,7 @@
         padding-left: 0;
         margin: 10px;
         padding-right: 15px;
+        align-items: baseline;
     }
     .btn-group{
         padding-top: 0;
@@ -530,13 +531,13 @@
         object-fit: cover;
         width: 200px;
         border-radius: 10px 10px 0 0;
-        height: 150px;
+        height: 158px;
       }
       .card-img4 {
         object-fit: cover;
         width: 200px;
         border-radius: 10px 10px 0 0;
-        height: 120px;
+        height: 125px;
       }
       .card-img5 {
         object-fit: cover;
@@ -558,7 +559,7 @@
         margin-block-start: 25px;
     }
     .font-size1{
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
 }
@@ -575,7 +576,7 @@
     background-color: #F2F2F2;
     }
     h4,p{
-        font-size: 1.0em;
+        font-size: 0.8em;
     }
     .espace{
         font-size: 1.5em;
@@ -636,13 +637,13 @@
         object-fit: cover;
         width: 290px;
         border-radius: 10px 10px 0 0;
-        height: 150px;
+        height: 158px;
       }
       .card-img4 {
         object-fit: cover;
         width: 290px;
         border-radius: 10px 10px 0 0;
-        height: 120px;
+        height: 125px;
       }
       .card-img5 {
         object-fit: cover;
@@ -674,7 +675,7 @@
     background-color: #F2F2F2;
     }
     h4,p{
-        font-size: 1.0em;
+        font-size: 0.8em;
     }
     .espace{
         font-size: 1.5em;
@@ -699,28 +700,6 @@
         padding:8px;
         width: 1.2em;
         text-align: center;
-    }
-    .card-img2 {
-        object-fit: cover;
-        border-radius: 10px 10px 0 0;
-        height: 380px;
-    }
-    .card-img3{
-        object-fit: cover;
-        border-radius: 10px 10px 0 0;
-        height: 150px;
-    }
-    .card-img4 {
-        object-fit: cover;
-        width: 360px;
-        border-radius: 10px 10px 0 0;
-        height: 120px;
-    }
-    .card-img5 {
-        object-fit: cover;
-        width: 360px;
-        border-radius: 10px 10px 0 0;
-        height: 190px;
     }
     .container1 {
         padding: 8px 11px;
@@ -757,13 +736,13 @@
         object-fit: cover;
         width: 290px;
         border-radius: 10px 10px 0 0;
-        height: 150px;
+        height: 158px;
       }
       .card-img4 {
         object-fit: cover;
         width: 290px;
         border-radius: 10px 10px 0 0;
-        height: 120px;
+        height: 125px;
       }
       .card-img5 {
         object-fit: cover;
@@ -822,30 +801,6 @@
         width: 1.2em;
         text-align: center;
     }
-    .card-img2 {
-        object-fit: cover;
-        border-radius: 10px 10px 0 0;
-        height: 380px;
-        width: 360px;
-    }
-    .card-img3{
-        object-fit: cover;
-        border-radius: 10px 10px 0 0;
-        height: 150px;
-        width: 360px;
-    }
-    .card-img4 {
-        object-fit: cover;
-        width: 360px;
-        border-radius: 10px 10px 0 0;
-        height: 120px;
-    }
-    .card-img5 {
-        object-fit: cover;
-        width: 360px;
-        border-radius: 10px 10px 0 0;
-        height: 190px;
-    }
     .container1 {
         padding: 8px 11px;
         width: 190px;
@@ -881,13 +836,13 @@
         object-fit: cover;
         width: 290px;
         border-radius: 10px 10px 0 0;
-        height: 150px;
+        height: 158px;
       }
       .card-img4 {
         object-fit: cover;
         width: 290px;
         border-radius: 10px 10px 0 0;
-        height: 120px;
+        height: 125px;
       }
       .card-img5 {
         object-fit: cover;
@@ -964,33 +919,6 @@
         height: 150px;
         width: 350px;
     }
-    .card-img1{
-        height: 160px;
-        width: 250px;
-    }.card-img2 {
-         object-fit: cover;
-         width: 400px;
-         border-radius: 10px 10px 0 0;
-         height: 380px;
-     }
-    .card-img3{
-        object-fit: cover;
-        width: 400px;
-        border-radius: 10px 10px 0 0;
-        height: 150px;
-    }
-    .card-img4 {
-        object-fit: cover;
-        width: 400px;
-        border-radius: 10px 10px 0 0;
-        height: 120px;
-    }
-    .card-img5 {
-        object-fit: cover;
-        width: 400px;
-        border-radius: 10px 10px 0 0;
-        height: 190px;
-    }
     .container{
         width: 250px;
     }
@@ -1029,13 +957,13 @@
         object-fit: cover;
         width: 290px;
         border-radius: 10px 10px 0 0;
-        height: 150px;
+        height: 158px;
       }
       .card-img4 {
         object-fit: cover;
         width: 290px;
         border-radius: 10px 10px 0 0;
-        height: 120px;
+        height: 125px;
       }
       .card-img5 {
         object-fit: cover;
