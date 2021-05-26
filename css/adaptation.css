@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 250px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
     .card {
         width: auto;
     }
@@ -21,33 +21,29 @@
         flex-direction: column;
     }
     .btn-group{
-        font-size: xxx-large;
-        display: flex;
+        font-size: 12px;
+        height: 30px;
         align-items: center;
+        display: flex;
+        border-radius: 50px 50px 50px 50px;
+        margin-right: 20px;
+        padding-right: 30px;
     }
-    .mag1{
-        border-radius: 10px 0px 0px 10px;
-        height: 100px;
+    .color-bleu-icon{
+        width: 10px;
+        font-size: 10px;
+        padding: 15px;
+        text-align: center;
+        margin-right: 25px;
+        border-radius: 30px;
     }
-    .mag2{
-        border-radius: 0px 0px 0px 0px;
-        height: 100px;
-    }
-    .mag2::placeholder{
-        color: black;
-        font-size: 0.7em;
-        font-weight: bold;
-    }
-    .mag3{
-        border-radius: 0px 10px 10px 0px;
-        height: 100px;
-    }
+
     .filtres{
-        font-size: 2.4em;
+        font-size: 1em;
         margin-bottom: 20px;
     }
     .button{
-        font-size: 2em;
+        font-size: ;
     } 
     .next{
         font-size: 0.8em;
@@ -57,28 +53,28 @@
         margin-bottom: 40px;
     }
     .font-size1{
-        font-size: 1.5em;
+        font-size: 0.8em;
     }
     .ancre2{
-        font-size: xxx-large;
+        font-size: 1em;
         position: relative;
-        bottom: 35px;
+        bottom: 22px;
     }
     .font-size{
-        font-size: 3em;
+        font-size: 1.5em;
     }
     .font-size2{
-        font-size: 2em;
+        font-size: 1em;
     }
     h4,h3{
-        font-size: 2.5em;
+        font-size: 1em;
     }
     h5{
         font-size: 1em;
     }
     h1{
-        font-size: 3.5em;
-        margin-top: 1.5em;
+        font-size: 1.5em;
+        margin-top: 50px;
     }
    
     header{
@@ -114,10 +110,7 @@
         justify-content: space-between;
     }
     .logo{
-      width: 77%;
-    }
-    header{
-        line-height: 114px;
+      width: 45%;
     }
     .container{
         width: 600px;
@@ -128,11 +121,11 @@
         padding: 10px;
     }
     .text{
-        font-size: xxx-large;
+        font-size:1em;
         width: 100%;
         position: absolute;
-        top: 90px;
-        justify-content: space-between;
+        top: 70px;
+
         
     }
     .bleu{
@@ -150,16 +143,13 @@
             margin-right: 30px;
             margin: 0;
             text-align: center;
-        }
-        .client1{
             margin-block-start: 10px;
-            margin-right: 30px;
         }
     .fa-info{
         color: #0065FC;
         background-color: white;
-        height: 50px;
-        width: 50px;
+        height: 20px;
+        width: 20px;
         border: 2px solid #F2F2F2;
         text-align: center;
         border-radius: 30px;
@@ -175,7 +165,7 @@
     background-color: #F2F2F2;
     }
     .bouton{
-        font-size: xx-large;
+        font-size: ;
     }
     .recherche{
         display: none;
@@ -184,7 +174,55 @@
         display: flex;
         width: 100%;
         justify-content: flex-end;
-        margin-block-start: 25px;
+        margin-block-start: 34px;
+    }
+    .card-img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .card-img1 {
+        width: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+    .img{
+        width: 100%;
+        object-fit: cover;
+        height: 200px;
+    }
+    .img20,.img10{
+        width: 100%;
+        object-fit: cover;
+        height: 50px;
+        padding-top: 30px;
+    }
+    .mag1{
+        border-radius: 20px 0px 0px 20px;
+        height: 60px;
+        border-right: white;
+        font-size: 4em;
+        padding-right: 15px;
+        padding-left: 15px;
+        object-fit: cover;
+    }
+    .mag2{
+        height: 60px;
+        object-fit: cover;
+        width: 100%;
+        padding-left: 15px;
+    }
+    .mag2::placeholder{
+        color: black;
+        font-size: 0.7em;
+        font-weight:bold;
+    }
+    .mag3{
+        border-radius: 20px 20px 20px 20px;
+        height: 60px;
+        font-size: 4em;
+        object-fit: cover;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
 
@@ -393,8 +431,6 @@
             margin-right: 30px;
             margin: 0;
             text-align: center;
-        }
-        .client1{
             margin-block-start: 10px;
             margin-right: 30px;
         }
@@ -597,7 +633,7 @@
         padding-left: 0;
         margin: 10px;
         padding-right: 15px;
-    }  
+    }
     .color-bleu-icon{
         border-radius: 20px;
         background-color: #DEEBFF;
