@@ -143,14 +143,10 @@
             margin-right: 30px;
             margin: 0;
             text-align: center;
-<<<<<<< HEAD
         }
         .client1{
             margin-bottom: 10px;
             margin-right: 30px;
-=======
-            margin-block-start: 10px;
->>>>>>> eed236e9b24322e6e13a151f737ce573d84efb98
         }
     .fa-info{
         color: #0065FC;
@@ -181,10 +177,7 @@
         display: flex;
         width: 100%;
         justify-content: flex-end;
-<<<<<<< HEAD
         margin-bottom: 25px;
-=======
-        margin-block-start: 34px;
     }
     .card-img {
         width: 100%;
@@ -233,7 +226,6 @@
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
->>>>>>> eed236e9b24322e6e13a151f737ce573d84efb98
     }
     
 
@@ -442,13 +434,9 @@
             margin-right: 30px;
             margin: 0;
             text-align: center;
-<<<<<<< HEAD
         }
         .client1{
             margin-bottom: 10px;
-=======
-            margin-block-start: 10px;
->>>>>>> eed236e9b24322e6e13a151f737ce573d84efb98
             margin-right: 30px;
         }
     .heberge {
@@ -716,7 +704,7 @@
         font-size: 1.3em;
         width: 100%;
         justify-content: flex-end;
-        margin-block-start: 25px;
+        margin-bottom: 25px;
     }
 
 
@@ -1036,7 +1024,7 @@
         font-size: 1.3em;
         width: 100%;
         justify-content: flex-end;
-        margin-block-start: 25px;
+        margin-bottom: 25px;
     }
 
 
