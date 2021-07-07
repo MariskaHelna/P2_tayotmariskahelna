@@ -10,7 +10,7 @@
 .filtres{
     margin-right: 10px;
     font-size: 1.2em;
-    margin-block-start: 5px;
+    margin-bottom: 5px;
 }
 .client,.client1{
     margin-right: 30px;
@@ -197,5 +197,5 @@ background: #0065FC;
     text-decoration: none;
 }
 .espace4{
-    margin-block-start: 30px;
+    margin-bottom: 30px;
 }

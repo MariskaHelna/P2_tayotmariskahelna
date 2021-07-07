@@ -146,13 +146,13 @@
         width: 50%;
         }
         .client{
-            margin-block-start: 10px;
+            margin-bottom: 10px;
             margin-right: 30px;
             margin: 0;
             text-align: center;
         }
         .client1{
-            margin-block-start: 10px;
+            margin-bottom: 10px;
             margin-right: 30px;
         }
     .fa-info{
@@ -184,7 +184,7 @@
         display: flex;
         width: 100%;
         justify-content: flex-end;
-        margin-block-start: 25px;
+        margin-bottom: 25px;
     }
     
 
@@ -389,13 +389,13 @@
         width: 50%;
         }
         .client{
-            margin-block-start: 10px;
+            margin-bottom: 10px;
             margin-right: 30px;
             margin: 0;
             text-align: center;
         }
         .client1{
-            margin-block-start: 10px;
+            margin-bottom: 10px;
             margin-right: 30px;
         }
     .heberge {
@@ -417,7 +417,7 @@
         display: flex;
         width: 100%;
         justify-content: flex-end;
-        margin-block-start: 25px;
+        margin-bottom: 25px;
     }
       
 }
@@ -468,7 +468,7 @@
     .filtres{
         margin-right: 10px;
         font-size: 1.2em;
-        margin-block-start: 15px;
+        margin-bottom: 15px;
     }
     .btn-group{
         padding-top: 0;
@@ -560,7 +560,7 @@
         font-size: 1.3em;
         width: 100%;
         justify-content: flex-end;
-        margin-block-start: 25px;
+        margin-bottom: 25px;
     }
     .font-size1{
         font-size: 0.8em;
@@ -762,7 +762,7 @@
         font-size: 1.3em;
         width: 100%;
         justify-content: flex-end;
-        margin-block-start: 25px;
+        margin-bottom: 25px;
     }
 
 
@@ -862,7 +862,7 @@
         font-size: 1.3em;
         width: 100%;
         justify-content: flex-end;
-        margin-block-start: 25px;
+        margin-bottom: 25px;
     }
 
 
